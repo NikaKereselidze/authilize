@@ -1,0 +1,38 @@
+{
+  "name": "authilize",
+  "version": "1.0.2",
+  "description": "Library for authentication middleware using JWT",
+  "main": "index.js",
+  "engine": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikakereselidze/authilize.git"
+  },
+  "author": "NikaKereselidze",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikakereselidze/authilize/issues"
+  },
+  "keywords": [
+    "auth",
+    "middleware",
+    "jwt",
+    "authilize",
+    "authentication",
+    "json web token"
+  ],
+  "homepage": "https://github.com/nikakereselidze/authilize#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
